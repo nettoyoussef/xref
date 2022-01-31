@@ -890,7 +890,7 @@ ITEMS is an xref item which " ; FIXME: Expand documentation.
     (define-key map (kbd ".") #'xref-next-line)
     (define-key map (kbd ",") #'xref-prev-line)
     (define-key map (kbd "g") #'xref-revert-buffer)
-    (define-key map (kbd "M-,") #'xref-quit-and-pop-marker-stack)
+    ;;(define-key map (kbd "M-,") #'xref-quit-and-pop-marker-stack)
     map))
 
 (define-derived-mode xref--xref-buffer-mode special-mode "XREF"
