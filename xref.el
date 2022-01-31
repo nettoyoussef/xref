@@ -1558,7 +1558,6 @@ output of this command when the backend is etags."
 ;;; Key bindings
 
 ;;;###autoload (define-key esc-map "." #'xref-find-definitions)
-;;;###autoload (define-key esc-map "," #'xref-go-back)
 ;;;###autoload (define-key esc-map [?\C-,] #'xref-go-forward)
 ;;;###autoload (define-key esc-map "?" #'xref-find-references)
 ;;;###autoload (define-key esc-map [?\C-.] #'xref-find-apropos)
